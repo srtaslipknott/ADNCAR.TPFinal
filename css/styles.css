@@ -1,0 +1,84 @@
+header{
+  background-color: #aa0101;
+  align-items:center;
+  padding: 10px;
+  width: 100%;
+  display:flex;
+}
+
+
+
+nav a{
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+#navbarNavDropdown {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.sobre-nosotros{
+  position: relative;
+  margin-left: 15px;
+}
+
+.nav-item:hover{
+  background-color: #706e6e;
+}
+
+.logoADN{
+  display: flex;
+  align-items: center;
+}
+
+.logoADN img{
+  height: 50px;
+}
+
+.circular--square {
+  border-radius: 50%;
+}
+
+.foto-citroen {
+  padding-left: 20px;
+}
+
+.formulario-contacto {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+#imgfb, #imginst{
+  width: 20px;
+}
+
+footer {
+  color: rgb(231, 219, 200);
+  background-color: black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 2px 2px 10px white;
+  background-color:rgb(0, 0, 0);
+}
+
+.menu-{
+  display: flex;
+  flex-direction: column;
+}
+
+ul{
+  list-style-type: none;
+}
+
+@media (max-width:700px){
+  header{
+    flex-direction:column;
+  }
+  nav{ padding: 10px 0px;
+  }
+}

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Libreria PDF-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+        integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--Scrips-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="script/form.js"></script>
+    <title>Taller Mecanico ADN Car</title>
+</head>
+
+<body>
+    <header>
+        <div class="logoADN">
+            <img class="circular--square"
+                src="https://firebasestorage.googleapis.com/v0/b/imagenes-desarrollo.appspot.com/o/11ad7e85-544a-453a-8754-864a26e9dda9.jpg?alt=media&token=2a7e6e76-0568-4a29-bfdd-a5ef7e8c75f6">
+        </div>
+        <div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-sm bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">QUIENES SOMOS</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#Nservicios" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                SERVICIOS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">REPARACIONES</a></li>
+                                <li><a class="dropdown-item" href="#">CATALOGO</a></li>
+                                <li><a class="dropdown-item" href="#">PRESUPUESTOS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#exampleFormControlInput1">CONTACTANOS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+
+
+    </header>
+
+    <main>
+        <section class="sobre-nosotros">
+            <div class="col-xs-12 col-sm-6 col-md-10 col-lg-12">
+                <h4 class="subtitulo">ADNcar, la empresa líder en mecanica automotriz!</h4>
+                <div class="row">
+
+
+                    <p> ADNcar es una empresa especializada en servicios de mecánica automotriz. Nuestra empresa
+                        cuenta
+                        con un equipo de técnicos altamente capacitados y con amplia experiencia en el mantenimiento
+                        y
+                        reparación de vehículos de todo tipo.</p> <br>
+
+                    <p id="Nservicios"> Nuestros servicios incluyen:</p>
+
+                    <li> Mantenimiento preventivo: Nos encargamos de realizar todas las revisiones y mantenimientos
+                        necesarios para asegurar el buen funcionamiento de su vehículo. Esto incluye cambios de
+                        aceite,
+                        filtros, líquidos, frenos y neumáticos. </li> <br>
+
+                    <li> Reparación: En caso de que su vehículo necesite reparaciones, nuestro equipo de técnicos
+                        está
+                        capacitado para diagnosticar y reparar todo tipo de fallas mecánicas.</li><br>
+
+                    <li> Diagnóstico avanzado: Contamos con tecnología de última generación para realizar
+                        diagnósticos
+                        avanzados en su vehículo. Esto nos permite detectar y resolver problemas de manera rápida y
+                        efectiva.</li><br>
+
+                    <li> Servicio de emergencia: Ofrecemos servicio de emergencia las 24 horas del día, los 7 días
+                        de la
+                        semana, para que pueda contar con nosotros en caso de cualquier imprevisto.</li> <br>
+
+                </div>
+
+
+
+                <div class="col-xs-12 col-sm-6 col-md-10 col-lg-12 foto-citroen">
+                    <img src="Images/citroen.png" alt="Imagen de un auto" class="img-fluid">
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 foto-personal">
+                        <img src="Images/mechanic-640x230.jpg" alt="personal del taller" class="img-fluid">
+                    </div>
+                    <div class="col-sm-6">
+                        <p>Nuestro taller mecánico cuenta con un equipo de expertos altamente capacitados que tienen
+                            años de
+                            experiencia en el sector automotriz.</p>
+                        <li>Mario Aguilar: Encargado del taller y mecánico automotriz experto con más de 20 años de
+                            experiencia en el campo.</li>
+                        <li>Fernando Gómez: Mecánica automotriz con 10 años de experiencia en sistemas de suspensión y
+                            dirección.</li>
+                        <li>Luis Ramírez: Mecánico especialista en neumáticos y frenos con más de 5 años de experiencia
+                            en
+                            el campo.</li>
+                        <li>Paula González: Experto en diagnóstico de motores y sistemas eléctricos con más de 8 años de
+                            experiencia en el sector.</li>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="servicios">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="Images/" alt="">
+                    </div>
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3"></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container text-center">
+           
+            <form action="#mensaje" onsubmit="ver()" method="get" class="my-5 w-50 mx-auto text-start">
+                <h2 class="text-center">Ingrese nombre de la ciudad</h2>
+                <div class="row">
+                    <div class="col">
+                        <label for="nombre" class="form-label">Ciudad:</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="ej: cosquin">
+                    </div>
+                </div>
+    
+                <div class="text-center my-4">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+    
+            <div class="card my-5 text-start">
+                <div class="card-body">
+                    <h2 class="text-center text-danger" id="mensaje"></h2>
+                    <h3 class="text-center">Clima hoy</h3>
+                    <h5>Ciudad: <span id="ciudad"></span></h5>
+                    <h5>Temperatura: <span id="temperatura"></span></h5>
+                    <h5>Clima: <span id="clima"></span></h5>
+                </div>
+            </div>
+        </div>  
+
+        <div class="container-fluid  mt-3">
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <!-- VISTA DE DATOS PERSONALES -->
+                    <form class="needs-validation mx-auto border p-4" id="primerVista" novalidate>
+
+
+                        <h3 class="text-primary">Datos Personales</h3>
+
+                        <div class="row my-2">
+                            <!--fila de nombre y apellido -->
+                            <div class="col-12 col-md-6">
+                                <label for="name" class="form-label">Nombre/s</label>
+                                <input type="text" class="form-control" id="name" required>
+                                <div class="invalid-feedback">
+                                    El nombre es obligatorio
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="apellido" class="form-label">Apellido/s</label>
+                                <input type="text" class="form-control" id="apellido" required>
+                                <div class="invalid-feedback">
+                                    El apellido es obligatorio
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row my-2">
+                            <div class="col-12 col-md-6">
+                                <!--fila de fecha y email -->
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                                <div class="invalid-feedback">
+                                    El email es obligatorio de formato usuario@dominio
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row my-2">
+                            <!--fila de ciudad y provincia -->
+                            <div class="col-12 col-md-6">
+                                <label for="city" class="form-label">Ciudad:</label>
+                                <input type="text" class="form-control" id="city" required>
+                                <div class="invalid-feedback">
+                                    La ciudad es obligatoria
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="provincia" class="form-label">Provincia</label>
+                                <input type="text" class="form-control" id="provincia" required>
+                                <div class="invalid-feedback">
+                                    La provincia es obligatoria
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center my-3">
+                            <!-- BOTONES DE AVANCE/RETROCESO -->
+                            <button class="btn btn-success" type="submit">Siguiente</button>
+                        </div>
+                    </form>
+                    <!-- FIN VISTA DE DATOS PERSONALES -->
+
+
+                    <!-- VISTA DE DATOS DEL NEGOCIO -->
+                    <form class="needs-validation d-none mx-auto my-4 border p-4" id="segundaVista" novalidate>
+                        <h3 class="text-primary">Datos del vehiculo</h3>
+
+                        <div class="row">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <label for="marca" class="form-label">Marca</label>
+                                    <input type="text" class="form-control" id="marca" required>
+                                    <div class="invalid-feedback">
+                                        Ingrese una marca
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <label for="modelo" class="form-label">modelo</label>
+                                    <input type="text" class="form-control" id="modelo">
+                                    <div class="invalid-feedback">
+                                        Ingrese un modelo
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row my-2">
+                                <div class="col-12 col-md-6">
+                                    <label for="anioAuto" class="form-label">Ingrese el año del auto</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="anioAuto" required>
+                                        <div class="invalid-feedback">
+                                            Inserte un año
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <label for="servicio" class="form-label">servicio</label>
+                                    <input type="text" class="form-control" id="servicio" required>
+                                    <div class="invalid-feedback">
+                                        Ingrese servicio
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- BOTONES DE AVANCE/RETROCESO -->
+                            <div class="btn btn-danger" id="btnSegundaVistaAtras">Volver Atras</div>
+                            <button class="btn btn-success" type="submit">Siguiente</button>
+                        </div>
+                    </form>
+                    <!-- FIN VISTA DE DATOS DEL NEGOCIO -->
+
+
+
+                    <!-- VISTA DE CONFIRMACION DE *TODOS* LOS DATOS (READ ONLY - SOLO LECTURA)-->
+                    <form class="mx-auto d-none border p-4" id="confirmar" action="/url">
+                        <h1 class="text-center text-primary">Confirmar envío de datos</h1>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <label for="nombreConfirmar" class="form-label text-primary">Nombre/s</label>
+                                <input type="text" class="form-control" id="nombreConfirmar" readonly>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="apellidoConfirmar" class="form-label text-primary">Apellido/s</label>
+                                <input type="text" class="form-control" id="apellidoConfirmar" readonly>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <label for="emailConfirmar" class="form-label text-primary">Email</label>
+                                <input type="text" class="form-control" id="emailConfirmar" readonly>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <label for="ciudadConfirmar" class="form-label text-primary">Ciudad</label>
+                                <input type="text" class="form-control" id="ciudadConfirmar" readonly>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="provinciaConfirmar" class="form-label text-primary">Provincia</label>
+                                <input type="text" class="form-control" id="provinciaConfirmar" readonly>
+                            </div>
+                        </div>
+
+                        <hr class="my-3 ">
+
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <label for="marcaConfirmar" class="form-label text-primary">Marca</label>
+                                <input type="text" class="form-control" id="marcaConfirmar" readonly>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="modeloConfirmar" class="form-label text-primary">Modelo</label>
+                                <input type="text" class="form-control" id="modeloConfirmar" readonly>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <label for="anioAuto" class="form-label text-primary">Ingrese el año del auto</label>
+                                <input type="text" class="form-control" id="anioAutoConfirmar" readonly>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="servicioConfirmar" class="form-label text-primary">Servicio</label>
+                                <input type="text" class="form-control" id="servicioConfirmar" readonly>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <div class="btn btn-outline-danger btn-lg my-4" id="btnVolverConfirma">Volver al Formulario
+                            </div>
+                            <div class="btn btn-outline-success btn-lg my-4" id="btnConfirmarDatos">Confirmar Envio
+                            </div>
+                            <div class="btn btn-outline-success btn-lg my-4" id="btnExportarPDF">PDF</div>
+                        </div>
+                    </form>
+                    <!-- FIN VISTA DE CONFIRMACION DE *TODOS* LOS DATOS -->
+                </div>
+            </div>
+            <!-- SE PUEDE OBVIAR. ES PARA MOSTRAR EL RESULTADO  -->
+            <div class="mt-3 d-none d-flex justify-content-center" id="contenedorJson">
+                <div>
+                    <h4>Estos datos serían enviados al back-end para guardarse en una BD <span class="fs-5">(por
+                            ejemplo)</span></h4>
+                    <span>
+                        <code> var f = new formulario() </code>
+                    </span><br>
+                    <textarea id="json" rows="13" cols="80">
+
+                </textarea>
+                </div>
+            </div>
+
+        </div>
+        <!--CIERRA CONTAINER -->
+
+    
+    <br>
+
+
+    <section class="formulario-contacto">
+        <form class="needs-validation" novalidate>
+        <h4>Consultanos</h4>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="nombre@gmail.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Detallanos tu consulta</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                        <button> Enviar </button>
+                    </div>
+                </div>
+                <div class="col-sm-6"></div>
+            </div>
+        </div>
+</form>
+    </section>
+</main>
+<!---  FOOTER con botones de redes sociales-->
+<div>
+
+    <footer>
+        <section class="container-fluid">
+            <nav class="menu-">
+                        <p>ATENCIÓN CLIENTE</p>
+                        <p>De 9 a 13hs y de 14 a 17hs de lun a vie.</p>
+                        <p>Av. Belgrano 8512, CABA</p>
+                        <p>(011)numero de telefono<br>(011)numero de telefono2</p>
+            </nav>
+        </section>
+        <div class="redes-sociales">
+
+            <a href="https://www.facebook.com/" target="_blank"><img src="Images/facebook.png" alt="Facebook"
+                    id="imgfb"> </a>
+
+            <a href="https://instagram.com/" target="_blank"> <img src="Images/instagram.png" alt="Instagram"
+                    id="imginst"></a>
+        </div>
+
+        <p>Grupo 1 | Argentina Programa | © 2023</p>
+    </footer>
+
+</div>
+
+
+
+
+</body>
+
+</html>
